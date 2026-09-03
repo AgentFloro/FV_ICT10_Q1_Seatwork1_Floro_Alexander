@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seatwork under christmas tree</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.3.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.3.1/core.js"></script>
+    <style>
+        .HansArdorBlossomStar{
+            margin-right: auto;
+             width: 500px;
+             height: 350px;
+             border: 2px solid black;
+             padding: 10px;
+             overflow: auto;
+             overflow-wrap: break-word;
+             position: relative;
+             left: 20px;
+             text-align: center;
+             background-color: rgba(1, 83, 149, 0.535);
+             color: rgb(89, 114, 158);
+             font-size: large;
+             font-weight: bolder;
+            
+        }
+        .ZoningZone{
+            margin-left: auto;
+             width: 500px;
+             height: 350px;
+             border: 2px solid black;
+             padding: 10px;
+             overflow: auto;
+             overflow-wrap: break-word;
+             position: relative;
+             right: 20px;
+             background-color: rgba(1, 83, 149, 0.535);
+             text-align: center;
+             color: rgb(206, 223, 253);
+             font-size: large;
+             font-weight: bolder;
+             
+        }
+        .KurtAradaTheUltimateParent{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+            gap: 20px;
+            position: relative;
+            top: 150px;
+        }
+        .stylish{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 20%;
+            left: 50%;
+            width: 150px;
+            height: 25px;
+            transform: translate(-50%, -50%);
+
+            border: 2px solid black;
+            padding: 10px;
+            overflow: auto;
+            overflow-wrap: break-word;
+            background-color: aliceblue;
+        }
+         body {
+            background-image: url('https://cdn.dribbble.com/userupload/21529429/file/original-2c2076618eff624e60a9e378a729bd69.gif'); 
+            background-repeat: no-repeat; 
+            background-size: cover; 
+            background-position: center; 
+            background-attachment: fixed; 
+            height: 100vh; 
+            margin: 0;
+        }
+        h1{
+            color: rgb(77, 155, 88);
+            text-align: center;
+            font-weight: bold;
+        }
+        h2{
+            color: rgb(77, 155, 88);
+            
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>˚.⋆꒰১ Sweet Holiday Fish Seatwork ໒꒱⋆.˚</h1>
+    <br>
+    <audio controls>
+    <source src="midi_Sir_Christmas.mp3" type="audio/mpeg">
+    </audio>
+    <h2>^Background Audio</h2>
+    <div class="KurtAradaTheUltimateParent">
+    <div id="TonyHawk" class="ZoningZone">
+
+    </div>
+    <div id="HansAdaraCrashingoutId" class="HansArdorBlossomStar">
+        <input type="text" id="input1" placeholder="First Number">
+
+       <input type="text" id="input2" placeholder="Second Number">
+       <br>
+       <button type="button" py-click="addnum">AddNumber</button> <!-- adds input 1 and 2 together with addition -->
+       
+       <button type="button" py-click="subnum">SubtractNumber</button> <!--subtracts input 1 by two with subtration -->
+       
+       <button type="button" py-click="mulnum">MultiplyNumber</button>
+       <!-- Multiplies input 1 and two with multiplication-->
+        
+       <button type="button" py-click="divnum">DivideNumber</button>
+       <!--Divide Input one by two with division-->
+       
+       <button type="button" py-click="OhioFinalBoss">Go ham</button>
+       <!--Go hamGo hamGo hamGo hamGo hamGo hamGo hamGo hamGo hamGo hamGo hamGo hamGo hamGo hamGo hamGo hamGo hamGo ham-->
+       <br><br>
+       <button type="button" py-click="Sweeperrrr">Sweeeperrr</button>
+       <br>
+       <br><br><br>
+       <div id="output1" class="stylish">
+
+    </div>
+
+    </div>
+    
+    
+    </div>
+
+
+    <script type="py" src="main.py"></script>
+
+
+</body>
+</html>
